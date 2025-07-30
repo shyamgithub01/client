@@ -2,11 +2,11 @@ import React from 'react';
 
 const ProjectsPage = () => {
   const projects = [
-    { id: 1, title: "Rbac-App", description: "Robust backend system for role-based access control", technologies: ["Python", "FastAPI", "Postgresql"], github: "https://github.com/shyamgithub01/rabc-app", live: null },
+    { id: 1, title: "RBAC-App", description: "Robust backend system for role-based access control", technologies: ["Python", "FastAPI", "Postgresql"], github: "https://github.com/shyamgithub01/rabc-app", live: null },
     { id: 2, title: "OkHttp Project", description: "Java networking project using OkHttp library", technologies: ["Java", "OkHttp", "REST APIs"], github: "https://github.com/shyamgithub01/OkHttp-Project", live: null },
-    { id: 3, title: "MyBank Frontend", description: "Modern banking interface with real-time transactions", technologies: ["React", "Tailwind CSS", "Redux"], github: "https://github.com/shyamgithub01/bankx-frontend", live: "https://bankx-48jf.onrender.com" },
+    { id: 3, title: "MyBank Frontend", description: "Inspired Modern banking interface with transactions feature", technologies: ["React", "Tailwind CSS", "Redux"], github: "https://github.com/shyamgithub01/bankx-frontend", live: "https://bankx-48jf.onrender.com" },
     { id: 4, title: "MyBank Backend", description: "Secure banking system backend with transaction processing", technologies: ["Python", "Fastapi", "PostgreSQL"], github: "https://github.com/shyamgithub01/bank-backend", live: null },
-    { id: 5, title: "Internship Projects", description: "Collection of projects during IoTiva Innovation LLP internship", technologies: ["Python", "Reactjs", "FastAPI"], github: "https://github.com/shyamgithub01/Internship", live: null },
+    { id: 5, title: "Internship Projects", description: "Collection of learning of first months at IoTiva Innovation LLP internship", technologies: ["Python", "Reactjs", "FastAPI"], github: "https://github.com/shyamgithub01/Internship", live: null },
     { id: 6, title: "FastAPI Standards", description: "Industry-standard backend implementation with FastAPI", technologies: ["Python", "FastAPI", "Render.com"], github: "https://github.com/shyamgithub01/FastAPI-Project-Industry-Standards", live: "https://fastapi-project-industry-standards-9.onrender.com/docs" }
   ];
 
@@ -67,7 +67,7 @@ const ProjectsPage = () => {
               <h3 className="font-bold text-sm md:text-base">Education</h3>
             </div>
             <p className="text-emerald-600 font-medium text-sm md:text-base">Gandhinagar University</p>
-            <p className="text-xs md:text-sm mt-1">Computer Science</p>
+            <p className="text-xs md:text-sm mt-1">Information Technology</p>
           </div>
         </div>
         

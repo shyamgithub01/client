@@ -6,12 +6,12 @@ const FrontPage = () => {
   const projects = [
     { 
       id: 1, 
-      name: 'Rabc-Backend', 
+      name: 'RBAC-Backend', 
       language: 'Python', 
       updated: '12 hours ago',
       github: 'https://github.com/shyamgithub01/rabc-app',
       live: null,
-      technologies: ['Python', 'FastAPI', 'MongoDB']
+      technologies: ['PostgreSQL', 'FastAPI', 'MongoDB']
     },
     { 
       id: 2, 
@@ -20,7 +20,7 @@ const FrontPage = () => {
       updated: '3 days ago',
       github: 'https://github.com/shyamgithub01/bankx-frontend',
       live: 'https://bankx-48jf.onrender.com',
-      technologies: ['React', 'Tailwind CSS', 'JavaScript']
+      technologies: ['React', 'Tailwind CSS', 'HTMl']
     },
     { 
       id: 3, 
@@ -62,10 +62,10 @@ const FrontPage = () => {
 
   const skills = [
     { name: 'Python', icon: 'P' },
-    { name: 'Postgresql', icon: 'P' },
+    { name: 'PostgreSQL', icon: 'P' },
     { name: 'React', icon: 'R' },
     { name: 'FastAPI', icon: 'F' },
-    { name: 'APi Testing', icon: 'A' },
+    { name: 'API Testing', icon: 'A' },
     { name: 'Java', icon: 'J' },
     { name: 'MongoDB', icon: 'M' },
     { name: 'Tailwind CSS', icon: 'T' },
@@ -146,24 +146,22 @@ const FrontPage = () => {
                   </div>
                   <div className="ml-3 sm:ml-4">
                     <h2 className="text-lg sm:text-xl font-bold">Shyam Sirodariya</h2>
-                    <p className="text-blue-600 text-sm sm:text-base">Python & JavaScript Developer</p>
+                    <p className="text-blue-600 text-sm sm:text-base">Python & React Developer</p>
                   </div>
                 </div>
                 
-                <div className="space-y-3 sm:space-y-4">
+                <div className="space-y-3  sm:space-y-4">
                   {projects.slice(0, 3).map((project) => (
                     <div 
                       key={project.id}
                       className="flex items-center justify-between p-3 sm:p-4 bg-white border border-gray-200 rounded-xl hover:border-blue-500 transition-colors cursor-pointer"
                       onClick={() => window.open(project.github, '_blank')}
                     >
-                      <div>
-                        <h3 className="font-semibold text-sm sm:text-base">{project.name}</h3>
+                      <div >
+                        <h3 className="font-semibold  text-sm sm:text-base">{project.name}</h3>
                         <p className="text-xs sm:text-sm text-gray-500">{project.language}</p>
                       </div>
-                      <span className="text-xs bg-gray-100 px-2 py-1 rounded">
-                        Updated {project.updated}
-                      </span>
+                      
                     </div>
                   ))}
                 </div>
